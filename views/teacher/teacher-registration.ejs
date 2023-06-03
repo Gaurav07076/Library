@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regstration page admin</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+          }
+    </style>
+</head>
+<body>
+    <h1> FACULTY & STAFF REGSTRATION PAGE</h1>
+    <div class="field-container">
+         <label for="name">Enter your first name: </label>
+         <input type="text" name="name" id="name" required>
+         <label for="name">Enter your last name: </label>
+         <input type="text" name="name" id="name" required>
+    </div>
+    <div class="field-container">
+         <label for="name">profile image </label>
+         <input type="file" name="profimg" id="profimg" required>
+    </div>
+    <div class="field-container">
+         <label for="name">Teacher ID: </label>
+         <input type="number" name="number" id="number" required>
+    </div>
+    <div class="field-container">
+         <label for="name">Enter your contact number: </label>
+         <input type="number" name="number" id="number" required>
+    </div>
+    <div class="field-container">
+         <label for="name">Gmail :</label>
+         <input type="mail" name="mail" id="mail" required>
+    </div>
+    <div class="field-container">
+         <label for="name">Designation :</label>
+         <select name="Designation" id="designation" required>
+            <option value="Ast. Prof.">Ast. Prof.</option>
+            <option value="Head of Department">Head of Department</option>
+            <option value="Acountant">Acountant</option>
+            <option value="Executive">Executive</option>
+          </select>
+    </div>
+    <div class="field-container">
+        <label for="name">Department:</label>
+        <select name="Department" id="Department" required>
+           <option value="CSIT">CSIT</option>
+           <option value="CSE">CSE</option>
+           <option value="CIVIL">CIVIL</option>
+           <option value="Baerojgar">Baerojgar</option>
+         </select>
+   </div>
+    
+     <div class="field-container">
+         <label for="name">enter password :</label>
+         <input type="text" name="number" id="number" required>
+     </div>
+        <div class="field-container">
+         <label for="name">re-enter password :</label>
+         <input type="text" name="number" id="number" required>
+    </div>
+    <button><a href="/">register</a></button>
+    <button><a href="/register">BACK</a></button>
+</body>
+</html>
